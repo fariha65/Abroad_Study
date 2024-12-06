@@ -8,12 +8,10 @@ A web application to explore, compare, and analyze study programs from universit
 1. [Features](#features)  
 2. [Technologies Used](#technologies-used)  
 3. [Installation](#installation)  
-4. [Web Scraping Workflow](#web-scraping-workflow)  
-5. [File Structure](#file-structure)  
-6. [API Endpoints](#api-endpoints)  
-7. [Future Enhancements](#future-enhancements)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
+4. [Web Scraping Workflow](#web-scraping-workflow)   
+5. [API Endpoints](#api-endpoints)  
+6. [Future Enhancements](#future-enhancements)  
+7. [License](#license)  
 
 ---
 
@@ -65,34 +63,37 @@ A web application to explore, compare, and analyze study programs from universit
    cd Abroad-Study/project/server  
 
 ### Install dependencies:
-npm install  
+2.Install dependencies:
+   npm install  
 
-### Set up .env file:
-MONGO_URI=your-mongodb-atlas-uri  
-JWT_SECRET=your-jwt-secret  
-PORT=5000  
+3. Set up .env file:
+   MONGO_URI=your-mongodb-atlas-uri  
+   JWT_SECRET=your-jwt-secret  
+   PORT=5000  
 
-### Start the server:
-npm start  
+4. Start the server:
+   npm start  
 
 ### Frontend Setup:
--**Navigate to the client folder:
-cd ../client  
-### Install dependencies:
-npm install  
-### Start the client:
-npm start  
+1.Navigate to the client folder:
+   cd ../client  
+2. Install dependencies:
+   npm install  
+3. Start the client:
+   npm start  
 
 ### Web Scraping Workflow
-Static Data:
+1.Static Data:
 
 Use Python and BeautifulSoup to scrape static data.
 Save data in JSON format for MongoDB insertion.
-Dynamic Data:
+
+2.Dynamic Data:
 
 Use Selenium to handle JavaScript-rendered pages.
 Automate data scraping for programs and university details.
-Data Transfer:
+
+3.Data Transfer:
 
 Load JSON data into MongoDB Atlas.
 Ensure compatibility with defined Mongoose schemas.
