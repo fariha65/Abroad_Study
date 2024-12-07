@@ -88,12 +88,12 @@ A web application to explore, compare, and analyze study programs from universit
 Use Python and BeautifulSoup to scrape static data.
 Save data in JSON format for MongoDB insertion.
 
-2.Dynamic Data:
+2. Dynamic Data:
 
 Use Selenium to handle JavaScript-rendered pages.
 Automate data scraping for programs and university details.
 
-3.Data Transfer:
+3. Data Transfer:
 
 Load JSON data into MongoDB Atlas.
 Ensure compatibility with defined Mongoose schemas.
@@ -112,4 +112,4 @@ Advanced filtering options like location, budget, and program type.
 Visualization tools for data comparison and analysis.
 
 ### License
-This project is licensed under the MIT License.
+
