@@ -128,7 +128,7 @@ A web application to explore, compare, and analyze study programs from universit
 
 ## Future Enhancements  
 - Real-time updates for university rankings.  
-- Advanced filtering options like location, budget, and program type.  
+- Advanced filtering options like Ranking, budget, and program type, English Language Test score etc.  
 - Visualization tools for data comparison and analysis.  
 
 ---
