@@ -59,7 +59,6 @@ A web application to explore, compare, and analyze study programs from universit
 ### Backend Setup  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/fariha65/Abroad-Study.git  
    cd Abroad-Study/project/server  
    ```  
 
