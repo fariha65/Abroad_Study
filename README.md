@@ -1,4 +1,4 @@
-# Abroad Study 🌍  
+# Abroad Study 
 
 A web application to explore, compare, and analyze study programs from universities worldwide. Built using the **MERN Stack** with advanced web scraping tools like **BeautifulSoup** and **Selenium**, this project provides detailed program information in a user-friendly interface.  
 
